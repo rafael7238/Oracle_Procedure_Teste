@@ -3,7 +3,8 @@ create or replace PROCEDURE Consulta_Aluno
   pNome          OUT TALUNO.Nome%TYPE,
   pCep           OUT TALUNO.Cep%TYPE,
   pCidade        OUT TALUNO.Cidade%TYPE,
-  pCidade2        OUT TALUNO.Cidade%TYPE)
+  pCidade2        OUT TALUNO.Cidade%TYPE,
+   pCidade3        OUT TALUNO.Cidade%TYPE)
 IS
 BEGIN
   SELECT nome, Cep, cidade
